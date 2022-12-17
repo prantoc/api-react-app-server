@@ -1,7 +1,7 @@
 //# all required 
-const express = require('express')
+import express from 'express';
 const app = express()
-var cors = require('cors')
+import cors from 'cors';
 //#port setup
 const port = process.env.PORT || 5000
 //# used cors
